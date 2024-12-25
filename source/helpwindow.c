@@ -52,10 +52,7 @@ void Show_help_window()
 	sprintf(msg,"Rev.%s",((Rev==0xB000)||(Rev==0xA000)) ? "B":"A");
 	DrawHZText12(msg,0,3,149, gl_color_text,1);	
 				
-	DrawHZText12(gl_online_manual,0,240-70-7,77, gl_color_text,1);
-
-	DrawHZText12("한글화: r35, 개굴소",0,3,145, gl_color_text,1);
-	
+	DrawHZText12(gl_online_manual,0,240-70-7,77, gl_color_text,1);	
 	while(1)
 	{
 		VBlankIntrWait(); 	
